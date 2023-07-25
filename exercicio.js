@@ -21,6 +21,8 @@ import { exercicio3 } from "./moduloExercicio3.js";
 import { exercicio4 } from "./moduloExercicio4.js";
 import { exercicio5 } from "./moduloExercicio5.js";
 import { exercicio6 } from "./moduloExercicio6.js";
+import { exercicio7 } from "./moduloExercicio7.js";
+
 
 
 
@@ -68,6 +70,29 @@ do {
     console.log("voce escolheu o exercicio 6")
     exercicio6()
             break;
+
+            case "7":
+                console.log("voce escolheu o exercicio 7")
+                exercicio7()
+                        break;
+
+
+                        case "8":
+                console.log("voce escolheu o exercicio 8")
+                exercicio8()
+                        break;
+
+                        case "9":
+                console.log("voce escolheu o exercicio 9")
+                exercicio9()
+                        break;
+
+                        case "10":
+                console.log("voce escolheu o exercicio 10")
+                exercicio10()
+                        break;
+
+
 
             default:
                 console.log("Voce nao escolheu nenhum numero de exercicio")
